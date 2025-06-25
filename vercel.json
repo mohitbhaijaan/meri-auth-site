@@ -17,16 +17,7 @@
       }
     }
   ],
-  "functions": {
-    "api/index.ts": {
-      "maxDuration": 30
-    }
-  },
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.ts"
-    },
     {
       "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
       "dest": "/dist/public/$1"
